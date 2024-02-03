@@ -12,40 +12,50 @@ body{
     font-family: 'Albert Sans', sans-serif;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* INDEX */
+
 /* HEADER */
 
 header{
-    background-color: #427D9D;
-    height: 100px;
+    background-color: #164863;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     position: sticky;
-
+    top: 0px;
 }
 
 .logo{
     width: 150px;
-    height: 100px;
-}
-
-.ul-links a{
-    color: white;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border-radius: 60px;
 }
 
 nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    width: 40%;
 }
 
-.ul-links{
+header ul{
+    list-style-type: none;
     display: flex;
     flex-direction: row;
-    justify-content: end;
-    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}
+
+header a{
     color: white;
+    text-decoration: none;
 }
 
 
@@ -57,21 +67,34 @@ nav{
     background-size: cover;
     background-position: center;
     text-align: center;
-    font-size: x-large;
+}
+
+.banner-h1{
     color: white;
+    font-size: 3rem;
+}
+
+.banner-p{
+    color: #164863;
+    font-size: xx-large;
+    background-color: beige;
 }
 
 /*PRESENTACION*/
 
 .titulo-presentacion-imagenes-casas{
-    color: #427D9D;
+    color: black;
     text-align: center;
-    text-decoration: underline;
+    text-decoration: none;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    background-color: beige;
 }
     
 .texto-imagenes{
     color: #427D9D;
     text-transform: uppercase;
+
 }
 
 .nosotros{
@@ -79,75 +102,247 @@ nav{
     color: #427D9D;
 }
 
-.padre-imagenes-casas img{
-    width: 250px;
+.padre-destacadas{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 400px 400px 400px;
+    gap: 200px;
+    row-gap: 200px;
+    justify-content: center;
+    margin-top: 80px;
+    margin-right: 80px;
 }
 
 
-/* PIE */
+.img-destacada{
+    width: 400px;
+    border-radius: 5px;
+}
+
+.data{
+    background-color: #DDF2FD;
+    width: 400px;
+    height: 270px;
+}
+
+.direccion{
+    font-size: small;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5px;
+}
+
+.prop-titulo{
+    font-size: large;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+}
+
+.adress{
+    font-size: smaller;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5px;
+}
+
+.casa-descripccion{
+    font-size: medium;
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+
+
+
+/* FOOTER */
 
 footer{
-    background-color: #DDF2FD;
+    margin-top: 100px;
+    background-color: #164863;
     width: 100%;
     height: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    margin-top: 100px;
 }
 
 footer img{
     width: 50px;
+    margin-top: 30px;
+}
+
+.footer-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 
 
 /*--PROPIEDADES--*/
 
-.propiedades{
-    text-align: center;
+.h1-propiedades{
     color: #164863;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    color: #164863;
+    font-size: xx-large;
+    background-color: beige;
+}
+
+.p-slogan{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.div-alquiler{
+    background-color: #DDF2FD;
+    height: 470px;
+    width: 420px;
+    background-size: contain;
+    border-radius: 30px;
+}
+
+.div-venta{
+    background-color: #DDF2FD;
+    height: 470px;
+    width: 420px;
+    background-size: contain;
+    border-radius: 30px;
+}
+
+/* ALQUILER */
+
+.casas-alquiler{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 400px 400px;
+    gap: 80px;
+    row-gap: 100px;
+    justify-content: center;
+}
+
+.img-alquiler{
+    border-radius: 30px;
+    width: 400px;
+    height: 400px;
+    margin-left: 10px;
 }
 
 .titulo-alquileres{
-    text-decoration: underline;
     color: #164863;
+    background-color: #9BBEC8;
+    padding: 10px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.titulo-alquileres:hover{
+    text-decoration: underline;
+    color: #427D9D;
+}
+
+/* VENTA */
+
+.casas-venta{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 400px 400px;
+    gap: 80px;
+    row-gap: 100px;
+    justify-content: center;
+}
+
+.img-venta{
+    border-radius: 30px;
+    width: 400px;
+    height: 400px;
+    margin-left: 10px;
 }
 
 .titulo-ventas{
-    text-decoration: underline;
     color: #164863;
+    background-color: #9BBEC8;
+    padding: 10px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.titulo-ventas:hover{
+    text-decoration: underline;
+    color: #427D9D;
+}
+
+.texto-imagenes{
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 10px;
+    text-align: center;
+    color: black solid;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
 
+/* CONTACTO */
 /* FORMULARIO */
+
+.h2-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #164863;
+    background-color: #9BBEC8;
+    padding: 10px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.p-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 form{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: start; */
+    align-items: center;
 }
 
 .form-nombre{
-    width: 15%;
+    width: 30%;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
 .form-apellido{
-    width: 15%;
+    width: 30%;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
 .form-telefono{
-    width: 15%;
+    width: 30%;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
 .form-email{
-    width: 15%;
+    width: 30%;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -163,5 +358,90 @@ form{
     width: 80px;
     border-radius: 10px;
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
+    background-color: #427D9D;
+    /* border: solid 1px black;
+    color: black; */
+}
+
+.form-button :hover{
+    background-color: black;
+}
+
+/* EMPRENDIMIENTOS */
+
+.h2-emprendimientos{
+    color: #164863;
+    background-color: #9BBEC8;
+    padding: 10px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.h2-emprendimientos:hover{
+    text-decoration: underline;
+    color: #427D9D;
+}
+
+.padre_emprendedor{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 400px 400px;
+    gap: 80px;
+    row-gap: 250px;
+    justify-content: center;
+    margin-bottom: 300px;
+}
+
+.img-prop{
+    width: 300px;
+    height: 400px;
+    margin-left: 10px;
+    border-radius: 30px;
+}
+
+
+
+.propiedad-emprendimiento{
+    background-color: #DDF2FD;
+    height: 630px;
+    width: 320px;
+    background-size: contain;
+    border-radius: 30px;
+}
+
+/* NOSOTROS */
+
+
+.nosotros{
+    color:#164863;
+    font-size: 2rem;
+    background-color: #9BBEC8;
+    padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.h3-nosotros{
+    color: black;
+    padding: 10px;
+    font-weight: bolder;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.descripccion{
+    color: black;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.list{
+    color: black;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
 }
