@@ -24,7 +24,7 @@ body{
 /* HEADER */
 
 header{
-    background-color: #164863;
+    background: linear-gradient(125deg,#164863 30%, #f5f5dc 90%);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -57,9 +57,10 @@ header ul{
 }
 
 header a{
-    color: white;
+    color: #164863;
     text-decoration: none;
     margin-left: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
@@ -73,26 +74,44 @@ header a{
     text-align: center;
 }
 
+/* .div-banner{
+    padding: 200px 0px;
+} */
+
 .banner-h1{
-    color: white;
-    font-size: 3rem;
+    color: whitesmoke;
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    text-shadow: 1px -1px 25px rgb(0, 0, 0)
 }
 
 .banner-p{
     color: #164863;
     font-size: xx-large;
-    background-color: beige;
+    background-color: #f5f5dc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*PRESENTACION*/
 
+.titutlo-h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .titulo-presentacion-imagenes-casas{
-    color: black;
+    color: white;
+    width: 40%;
     text-align: center;
     text-decoration: none;
     margin-top: 70px;
     margin-bottom: 10px;
-    background-color: beige;
+    background: linear-gradient(125deg,#164863 30%, #f5f5dc 90%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+    font-size: 3rem;
 }
     
 .texto-imagenes{
@@ -108,6 +127,9 @@ header a{
 
 .padre-destacadas{
     display: grid;
+    grid-template-areas: 
+    "propiedad1 propiedad2 propiedad3"
+    "propiedad4 propiedad5 propiedad6";
     grid-template-columns: repeat(3, 300px);
     grid-template-rows: repeat(3, 400px);
     gap: 200px;
@@ -115,8 +137,32 @@ header a{
     justify-content: center;
     margin-top: 80px;
     margin-right: 80px;
+    margin-bottom: 0;
 }
 
+.propiedad1{
+    grid-area: propiedad1;
+}
+
+.propiedad2{
+    grid-area: propiedad2;
+}
+
+.propiedad3{
+    grid-area: propiedad3;
+}
+
+.propiedad4{
+    grid-area: propiedad4;
+}
+
+.propiedad5{
+    grid-area: propiedad5;
+}
+
+.propiedad6{
+    grid-area: propiedad6;
+}
 
 .img-destacada{
     width: 400px;
@@ -162,14 +208,51 @@ header a{
     margin-top: 10px;
 }
 
+/* PRE - FOOTER */
+.empresa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
 
+.pre-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 200px;
+}
 
+.ubicación{
+    width: 400px;
+    height: 200px;
+    border-right: black solid 2px;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: end;
+    font-size: 2rem;
+}
+
+.BA{
+    font-size: 2rem;
+}
+
+.atencion{
+    width: 550px;
+    height: 200px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: start;
+    font-size: 2rem;
+}
 
 /* FOOTER */
 
 footer{
     margin-top: 100px;
-    background-color: #164863;
+    background: linear-gradient(125deg,#164863 30%, #f5f5dc 90%);
     width: 100%;
     height: 100px;
     margin-top: 100px;
@@ -254,7 +337,7 @@ footer img{
 
 .titulo-alquileres{
     color: #FFFF;
-    background-color: #9BBEC8;
+    background: linear-gradient(125deg,#164863 30%, #f5f5dc 90%);
     padding: 10px;
     margin-top: 80px;
     margin-bottom: 50px;
@@ -294,7 +377,7 @@ footer img{
 
 .titulo-ventas{
     color: #FFFF;
-    background-color: #9BBEC8;
+    background: linear-gradient(125deg,#164863 30%, #f5f5dc 90%);
     padding: 10px;
     margin-top: 150px;
     margin-bottom: 50px;
@@ -332,7 +415,7 @@ footer img{
 .h2-contacto{
     align-items: center;
     color: #FFFF;
-    background-color: #9BBEC8;
+    background: linear-gradient(125deg,#164863 30%, #f5f5dc 90%);
     padding: 10px;
     margin-top: 50px;
     margin-bottom: 30px;
@@ -362,7 +445,7 @@ footer img{
 
 .formulario{
     width: 400px;
-    background: #164863;
+    background: linear-gradient(125deg,#164863 30%, #f5f5dc 90%);
     padding: 30px;
     margin: auto;
     margin-top: 70px;
@@ -413,7 +496,7 @@ footer img{
 
 .h2-emprendimientos{
     color: #FFFF;
-    background-color: #9BBEC8;
+    background: linear-gradient(125deg,#164863 30%, #f5f5dc 90%);
     padding: 10px;
     margin-top: 80px;
     margin-bottom: 50px;
@@ -465,7 +548,7 @@ footer img{
 .nosotros{
     color: white;
     font-size: 2rem;
-    background-color: #164863;
+    background: linear-gradient(125deg,#164863 30%, #f5f5dc 90%);
     padding: 10px;
     margin-top: 100px;
     margin-bottom: 50px;
@@ -502,17 +585,99 @@ footer img{
     font-size: 16px;
     text-align: center;
 }
+    
+/* MEDIA QEURIES */
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 480px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    header{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    nav{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
 
     .padre-destacadas{
-        grid-column: repeat(6, 300px);
-
+        grid-template-areas: 
+        "propiedad1"
+        "propiedad2"
+        "propiedad3"
+        "propiedad4"
+        "propiedad5"
+        "propiedad6";
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 100px);
+        row-gap: 500px;
+        justify-content: center;
+        align-items: center;
     }
 
-    .img-destacada{
-        width: 300px;
-        border-radius: 50%;
+    .banner-h1{
+        color: whitesmoke;
+        font-size: 2rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: underline;
+        text-shadow: 1px -1px 25px rgb(0, 0, 0)
     }
-}   
     
+    .banner-p{
+        color: #164863;
+        font-size: large;
+        background-color: #f5f5dc;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .titulo-presentacion-imagenes-casas{
+        color: white;
+        width: 50%;
+        text-align: center;
+        text-decoration: none;
+        margin-top: 70px;
+        margin-bottom: 10px;
+        background: linear-gradient(125deg,#164863 30%, #f5f5dc 90%);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 5px;
+        font-size: 1.5rem;
+    }
+
+    header ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header a{
+        color: #164863;
+        text-decoration: none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 0.5rem;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+    
+    
+}   
