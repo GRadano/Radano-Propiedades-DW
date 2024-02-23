@@ -1,0 +1,415 @@
+@import "otros/propiedades";
+@import "otros/emprendimientos";
+@import "otros/nosotros";
+@import "otros/contacto";
+
+
+
+body{
+    font-family: 'Albert Sans', sans-serif;
+    background-color:aliceblue;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+// HEADER 
+
+header{
+    background: linear-gradient(125deg,#164863 30%, #f5f5dc 90%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    .logo{
+        width: 200px;
+        height: 150px;
+    }
+    nav{
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        header ul{
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            header a{
+                color: #164863;
+                text-decoration: none;
+                margin-left: 25px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+        }
+    }
+}
+
+// BANER
+
+.padre-banner{
+    background-image: url(../images/banner\ 5.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    .banner-h1{
+        color: whitesmoke;
+        font-size: 4rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: underline;
+        text-shadow: 1px -1px 25px rgb(0, 0, 0)
+    }
+    .banner-p{
+        color: #164863;
+        font-size: xx-large;
+        background-color: #f5f5dc;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+// TITULO PRESENTACION
+
+.titutlo-h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .titulo-presentacion-imagenes-casas{
+        color: white;
+        width: 40%;
+        text-align: center;
+        text-decoration: none;
+        margin-top: 70px;
+        margin-bottom: 10px;
+        background: linear-gradient(125deg,#164863 30%, #f5f5dc 90%);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 5px;
+        font-size: 3rem;
+    }
+}
+
+// PROPIEDADES DESTACADAS
+
+.padre-destacadas{
+    display: grid;
+    grid-template-areas: 
+    "propiedad1 propiedad2 propiedad3"
+    "propiedad4 propiedad5 propiedad6";
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(3, 400px);
+    gap: 200px;
+    row-gap: 200px;
+    justify-content: center;
+    margin-top: 80px;
+    margin-right: 80px;
+    margin-bottom: 0;
+    .propiedad1{
+        grid-area: propiedad1;
+        .img-destacada{
+            width: 400px;
+            border-radius: 5px;
+            grid-column: 1;
+        }
+        .data{
+            background-color: #DDF2FD;
+            width: 400px;
+            height: 280px;
+            border: solid #9BBEC8;
+            .direccion{
+                font-size: small;
+                color: gray;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                margin-left: 5px;
+            }
+            .prop-titulo{
+                font-size: large;
+                color: black;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-left: 5px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            .adress{
+                font-size: smaller;
+                color: gray;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                margin-left: 5px;
+            }
+            .casa-descripccion{
+                font-size: medium;
+                color: gray;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                margin-left: 5px;
+                margin-top: 10px;
+            }
+        }
+    }
+    .propiedad2{
+        grid-area: propiedad2;
+        .img-destacada{
+            width: 400px;
+            border-radius: 5px;
+            grid-column: 1;
+        }
+        .data{
+            background-color: #DDF2FD;
+            width: 400px;
+            height: 280px;
+            border: solid #9BBEC8;
+            .direccion{
+                font-size: small;
+                color: gray;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                margin-left: 5px;
+            }
+            .prop-titulo{
+                font-size: large;
+                color: black;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-left: 5px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            .adress{
+                font-size: smaller;
+                color: gray;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                margin-left: 5px;
+            }
+            .casa-descripccion{
+                font-size: medium;
+                color: gray;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                margin-left: 5px;
+                margin-top: 10px;
+            }
+        }
+    }
+    .propiedad3{
+        grid-area: propiedad3;
+        .img-destacada{
+            width: 400px;
+            border-radius: 5px;
+            grid-column: 1;
+        }
+        .data{
+            background-color: #DDF2FD;
+            width: 400px;
+            height: 280px;
+            border: solid #9BBEC8;
+            .direccion{
+                font-size: small;
+                color: gray;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                margin-left: 5px;
+            }
+            .prop-titulo{
+                font-size: large;
+                color: black;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-left: 5px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            .adress{
+                font-size: smaller;
+                color: gray;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                margin-left: 5px;
+            }
+            .casa-descripccion{
+                font-size: medium;
+                color: gray;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                margin-left: 5px;
+                margin-top: 10px;
+            }
+        }
+    }
+    .propiedad4{
+        grid-area: propiedad4;
+        .img-destacada{
+            width: 400px;
+            border-radius: 5px;
+            grid-column: 1;
+        }
+        .data{
+            background-color: #DDF2FD;
+            width: 400px;
+            height: 280px;
+            border: solid #9BBEC8;
+            .direccion{
+                font-size: small;
+                color: gray;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                margin-left: 5px;
+            }
+            .prop-titulo{
+                font-size: large;
+                color: black;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-left: 5px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            .adress{
+                font-size: smaller;
+                color: gray;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                margin-left: 5px;
+            }
+            .casa-descripccion{
+                font-size: medium;
+                color: gray;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                margin-left: 5px;
+                margin-top: 10px;
+            }
+        }
+    }
+    .propiedad5{
+        grid-area: propiedad5;
+        .img-destacada{
+            width: 400px;
+            border-radius: 5px;
+            grid-column: 1;
+        }
+        .data{
+            background-color: #DDF2FD;
+            width: 400px;
+            height: 280px;
+            border: solid #9BBEC8;
+            .direccion{
+                font-size: small;
+                color: gray;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                margin-left: 5px;
+            }
+            .prop-titulo{
+                font-size: large;
+                color: black;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-left: 5px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            .adress{
+                font-size: smaller;
+                color: gray;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                margin-left: 5px;
+            }
+            .casa-descripccion{
+                font-size: medium;
+                color: gray;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                margin-left: 5px;
+                margin-top: 10px;
+            }
+        }
+    }
+    .propiedad6{
+        grid-area: propiedad6;
+        .img-destacada{
+            width: 400px;
+            border-radius: 5px;
+            grid-column: 1;
+        }
+        .data{
+            background-color: #DDF2FD;
+            width: 400px;
+            height: 280px;
+            border: solid #9BBEC8;
+            .direccion{
+                font-size: small;
+                color: gray;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                margin-left: 5px;
+            }
+            .prop-titulo{
+                font-size: large;
+                color: black;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-left: 5px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            .adress{
+                font-size: smaller;
+                color: gray;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                margin-left: 5px;
+            }
+            .casa-descripccion{
+                font-size: medium;
+                color: gray;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                margin-left: 5px;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+.empresa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.pre-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 200px;
+    .ubicación{
+        width: 400px;
+        height: 200px;
+        border-right: black solid 2px;
+        align-items: center;
+        padding: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: end;
+        font-size: 2rem;
+        .BA{
+            font-size: 2rem;
+        }
+    }
+    .atencion{
+        width: 550px;
+        height: 200px;
+        padding: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: start;
+        font-size: 2rem;
+    }
+}
+
+footer{
+    margin-top: 100px;
+    background: linear-gradient(125deg,#164863 30%, #f5f5dc 90%);
+    width: 100%;
+    height: 100px;
+    margin-top: 100px;
+    footer img{
+        width: 50px;
+        margin-top: 30px;
+        .footer-img{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    }
+}
+
+
+@import "otros/mediaQ";

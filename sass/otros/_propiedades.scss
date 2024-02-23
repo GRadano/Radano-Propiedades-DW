@@ -1,0 +1,173 @@
+.h1-propiedades{
+    color: #164863;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    color: #164863;
+    font-size: xx-large;
+    background-color: beige;
+}
+
+.p-slogan{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.padre-alquileres{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .titulo-alquileres{
+        color: #FFFF;
+        background: linear-gradient(125deg,#164863 30%, #f5f5dc 90%);
+        padding: 10px;
+        margin-top: 80px;
+        margin-bottom: 50px;
+        font-size: xx-large;
+        font-family: 'Times New Roman', Times, serif;
+        border-radius: 5px;
+        &:hover{
+            text-decoration: underline;
+            color: #427D9D;
+        }
+    }
+
+}
+
+.casas-alquiler{
+    display: grid;
+    grid-template-areas: 
+    "div-alquiler1 div-alquiler2"
+    "div-alquiler3 div-alquiler4";
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 400px 400px;
+    gap: 80px;
+    row-gap: 100px;
+    justify-content: center;
+    .div-alquiler1{
+        grid-area: div-alquiler1;
+        .img-alquiler{
+            border-radius: 30px;
+            width: 400px;
+            height: 400px;
+            margin-left: 10px;
+        }
+    }
+    .div-alquiler2{
+        grid-area: div-alquiler2;
+        .img-alquiler{
+            border-radius: 30px;
+            width: 400px;
+            height: 400px;
+            margin-left: 10px;
+        }
+    }
+    .div-alquiler3{
+        grid-area: div-alquiler3;
+        .img-alquiler{
+            border-radius: 30px;
+            width: 400px;
+            height: 400px;
+            margin-left: 10px;
+        }
+    }
+    .div-alquiler4{
+        grid-area: div-alquiler4;
+        .img-alquiler{
+            border-radius: 30px;
+            width: 400px;
+            height: 400px;
+            margin-left: 10px;
+        }
+    }
+}
+
+.div-alquiler1, .div-alquiler2, .div-alquiler3, .div-alquiler4{
+    background-color: #DDF2FD;
+    height: 470px;
+    width: 420px;
+    background-size: contain;
+    border-radius: 30px;
+}
+
+.padre-ventas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .titulo-ventas{
+        color: #FFFF;
+        background: linear-gradient(125deg,#164863 30%, #f5f5dc 90%);
+        padding: 10px;
+        margin-top: 150px;
+        margin-bottom: 50px;
+        font-size: xx-large;
+        font-family: 'Times New Roman', Times, serif;
+        border-radius: 5px;
+        &:hover{
+            text-decoration: underline;
+            color: #427D9D;
+        }
+    }
+}
+
+.casas-venta{
+    display: grid;
+    grid-template-areas: 
+    "div-venta1 div-venta2"
+    "div-venta3 div-veta4";
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 400px 400px;
+    gap: 80px;
+    row-gap: 100px;
+    justify-content: center;
+    .div-venta1{
+        grid-area: div-venta1;
+        .img-venta{
+            border-radius: 30px;
+            width: 400px;
+            height: 400px;
+            margin-left: 10px;
+        }
+    }
+    .div-venta2{
+        grid-area: div-venta2;
+        .img-venta{
+            border-radius: 30px;
+            width: 400px;
+            height: 400px;
+            margin-left: 10px;
+        }
+    }
+    .div-venta3{
+        grid-area: div-venta3;
+        .img-venta{
+            border-radius: 30px;
+            width: 400px;
+            height: 400px;
+            margin-left: 10px;
+        }
+    }
+    .div-venta4{
+        grid-area: div-venta4;
+        .img-venta{
+            border-radius: 30px;
+            width: 400px;
+            height: 400px;
+            margin-left: 10px;
+        }
+    }
+}
+
+.div-venta1, .div-venta2, .div-venta3, .div-venta4{
+    background-color: #DDF2FD;
+    height: 470px;
+    width: 420px;
+    background-size: contain;
+    border-radius: 30px;
+}

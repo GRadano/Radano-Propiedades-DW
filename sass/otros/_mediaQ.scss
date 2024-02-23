@@ -1,0 +1,251 @@
+
+@media screen and (max-width: 480px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    /* INDEX ------------------------------------------------------------------------------------------ */
+
+    header{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    header ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header a{
+        color: #FFFF;
+        text-decoration: none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: x-small;
+    }
+
+    nav{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-h1{
+        color: whitesmoke;
+        font-size: 2rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: underline;
+        text-shadow: 1px -1px 25px rgb(0, 0, 0)
+    }
+    
+    .banner-p{
+        color: #164863;
+        font-size: large;
+        background-color: #f5f5dc;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .titutlo-h2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .titulo-presentacion-imagenes-casas{
+        color: white;
+        width: 50%;
+        text-align: center;
+        text-decoration: none;
+        margin: 50px 0;
+        background: linear-gradient(125deg,#164863 30%, #f5f5dc 90%);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 5px;
+        font-size: 1.5rem;
+    }
+
+    .padre-destacadas{
+        grid-template-areas: 
+        "propiedad1"
+        "propiedad2"
+        "propiedad3"
+        "propiedad4"
+        "propiedad5"
+        "propiedad6";
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 100px);
+        row-gap: 500px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 250px;
+        margin-bottom: 250px;
+        margin-left: 80px;
+    }
+
+    .empresa img{
+        width: 250px;
+    }
+    .empresa{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+        margin-top: 50px;
+    }
+
+    .pre-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 0px;
+        margin-bottom: 200px;
+        width: 100%;
+    }
+
+    .ubicación{
+        width: 100%;
+        height: 150px;
+        border-left: none;
+        border-bottom: black solid 2px;
+        align-items: center;
+        padding: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: start;
+        font-size: 1rem;
+    }
+    
+    .BA{
+        font-size: 1.5rem;
+    }
+    
+    .atencion{
+        width: 100%;
+        height: 100px;
+        padding: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: start;
+        font-size: large
+    }
+
+    /* PROPIEDADES ---------------------------------------------------------------------------------*/
+
+    .casas-alquiler{
+        grid-template-areas: 
+        "div-alquiler1"
+        "div-alquiler2"
+        "div-alquiler3" 
+        "div-alquiler4";
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 300px);
+        gap: 80px;
+        row-gap: 200px;
+        justify-content: end;
+        margin-bottom: 100px;
+        margin-left: 30px;
+    }
+
+    .casas-venta{
+        grid-template-areas: 
+        "div-venta1"
+        "div-venta2"
+        "div-venta3"
+        "div-veta4";
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 300px);
+        gap: 80px;
+        row-gap: 200px;
+        justify-content: center;
+        margin-bottom: 300px;
+        margin-left: 30px;
+    }
+
+    /* -------------------------------------- EMPRENDIMIENTOS ----------------------------------------------- */
+
+    .padre_emprendedor{
+        grid-template-areas: 
+        "propiedad-emprendimiento1" 
+        "propiedad-emprendimiento2" 
+        "propiedad-emprendimiento3"
+        "propiedad-emprendimiento4" 
+        "propiedad-emprendimiento5" 
+        "propiedad-emprendimiento6";
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 300px);
+        gap: 200px;
+        row-gap: 500px;
+        justify-content: center;
+        margin-bottom: 400px;
+        margin-left: 80px;
+    }
+    
+    /* --------------------------------------------NOSOTROS ----------------------------------------------------- */
+
+    .nosotros{
+        color: white;
+        font-size: 1rem;
+        background: linear-gradient(125deg,#164863 30%, #f5f5dc 90%);
+        padding: 20px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        border-radius: 5px;
+        font-family: 'Times New Roman', Times, serif;
+        box-shadow: 5px 10px 20px #000;
+        width: 80%;
+    }
+
+    .descripccion, .list{
+        font-size: 1rem;
+    }
+
+    .mision{
+        width: 70%;
+    }
+
+    .vision{
+        height: 350px;
+        width: 70%;
+    }
+
+    .valores{
+        height: 700px;
+        width: 70%;
+    }
+
+    /* -------------------------------------------- CONTACTANOS ------------------------------------------------- */
+
+    .p-contacto{
+        width: 80%;
+        font-size: 1rem;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .formulario{
+        width: 300px;
+        background: linear-gradient(125deg,#164863 30%, #f5f5dc 90%);
+        padding: 30px;
+        margin: auto;
+        margin-top: 70px;
+        border-radius: 4px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        box-shadow: 7px 13px 37px #000;;
+    }
+
+
+
+
+
+
+        
+    
+    
+    
+}   

@@ -1,0 +1,113 @@
+
+
+
+.padre-nosotros{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .nosotros{
+        color: white;
+        font-size: 2rem;
+        background: linear-gradient(125deg,#164863 30%, #f5f5dc 90%);
+        padding: 10px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        border-radius: 5px;
+        font-family: 'Times New Roman', Times, serif;
+        box-shadow: 5px 10px 20px #000;
+        &:hover{
+            text-decoration: underline;
+            color: #427D9D;
+        }
+    }
+}
+
+.padre-mision{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .mision{
+        background: #164863;
+        border-radius: 5px;
+        .h3-nosotros{
+            color: black;
+            padding: 10px;
+            font-weight: bolder;
+            text-align: center;
+            font-size: xx-large;
+        }
+        .descripccion{
+            color: black;
+            padding: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            text-align: center;
+        }
+        .list{
+            color: black;
+            padding: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            text-align: center;
+        } 
+    }
+}
+
+.padre-vision{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .vision{
+        background: #5587a3;
+        border-radius: 5px;
+        height: 200px;
+        text-align: center;
+        width: 61%;
+        margin-top: 50px;
+        .h3-nosotros{
+            color: black;
+            padding: 10px;
+            font-weight: bolder;
+            text-align: center;
+            font-size: xx-large;
+        }
+        .descripccion{
+            color: black;
+            padding: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            text-align: center;
+        }
+    }
+}
+
+.padre-valores{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .valores{
+        background: #f5f5dc;
+        border-radius: 5px;
+        height: 500px;
+        text-align: center;
+        width: 61%;
+        margin-top: 50px;
+        .h3-nosotros{
+            color: black;
+            padding: 10px;
+            font-weight: bolder;
+            text-align: center;
+            font-size: xx-large;
+        }
+        .descripccion{
+            color: black;
+            padding: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            text-align: center;
+        }
+    }
+}

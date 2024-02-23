@@ -1,0 +1,93 @@
+
+.h1-propiedades{
+    color: #164863;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    color: #164863;
+    font-size: xx-large;
+    background-color: beige;
+}
+
+.p-slogan{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.padre-contactanos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .h2-contacto{
+        align-items: center;
+        color: #FFFF;
+        background: linear-gradient(125deg,#164863 30%, #f5f5dc 90%);
+        padding: 10px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        border-radius: 5px;
+        font-family: 'Times New Roman', Times, serif;
+        &:hover{
+            text-decoration: underline;
+            color: #427D9D;
+        }
+    }
+}
+
+.padre-p-contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .p-contacto{
+        margin-bottom: 50px;
+        color: #FFFF;
+        background-color:dimgray;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 5px;
+        font-size: xx-large;
+    }
+}
+
+.formulario{
+    width: 400px;
+    background: linear-gradient(125deg,#164863 30%, #f5f5dc 90%);
+    padding: 30px;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    .formulario h3{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .controls{
+        width: 93%;
+        background:  #164863;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid #9BBEC8;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 18px;
+    }
+    .boton{
+        width: 98%;
+        background: #427D9D;
+        border: none;
+        padding: 12px;
+        color: white;
+        margin: 16px 0;
+        font-size: 16px;
+        &:hover{
+            border: 1px solid white;
+        }
+    }
+}

@@ -1,0 +1,114 @@
+
+.h1-propiedades{
+    color: #164863;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    color: #164863;
+    font-size: xx-large;
+    background-color: beige;
+}
+
+.p-slogan{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.padre-emprendimientos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .h2-emprendimientos{
+        color: #FFFF;
+        background: linear-gradient(125deg,#164863 30%, #f5f5dc 90%);
+        padding: 10px;
+        margin-top: 80px;
+        margin-bottom: 50px;
+        border-radius: 5px;
+        font-family: 'Times New Roman', Times, serif;
+        &:hover{
+            text-decoration: underline;
+            color: #427D9D;
+        }
+    }
+}
+
+.padre_emprendedor{
+    display: grid;
+    grid-template-areas: 
+    "propiedad-emprendimiento1 propiedad-emprendimiento2 propiedad-emprendimiento3"
+    "propiedad-emprendimiento4 propiedad-emprendimiento5 propiedad-emprendimiento6";
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    gap: 200px;
+    row-gap: 500px;
+    justify-content: center;
+    .propiedad-emprendimiento1{
+        grid-area: propiedad-emprendimiento1;
+        .img-prop{
+            width: 300px;
+            height: 400px;
+            margin-left: 10px;
+            border-radius: 30px;
+        }
+    }
+    .propiedad-emprendimiento2{
+        grid-area: propiedad-emprendimiento2;
+        .img-prop{
+            width: 300px;
+            height: 400px;
+            margin-left: 10px;
+            border-radius: 30px;
+        }
+    }
+    .propiedad-emprendimiento3{
+        grid-area: propiedad-emprendimiento3;
+        .img-prop{
+            width: 300px;
+            height: 400px;
+            margin-left: 10px;
+            border-radius: 30px;
+        }
+    }
+    .propiedad-emprendimiento4{
+        grid-area: propiedad-emprendimiento4;
+        .img-prop{
+            width: 300px;
+            height: 400px;
+            margin-left: 10px;
+            border-radius: 30px;
+        }
+    }
+    .propiedad-emprendimiento5{
+        grid-area: propiedad-emprendimiento5;
+        .img-prop{
+            width: 300px;
+            height: 400px;
+            margin-left: 10px;
+            border-radius: 30px;
+        }
+    }
+    .propiedad-emprendimiento6{
+        grid-area: propiedad-emprendimiento6;
+        .img-prop{
+            width: 300px;
+            height: 400px;
+            margin-left: 10px;
+            border-radius: 30px;
+        }
+    }
+}
+
+.propiedad-emprendimiento1, .propiedad-emprendimiento2, .propiedad-emprendimiento3, .propiedad-emprendimiento4, .propiedad-emprendimiento5, .propiedad-emprendimiento6{
+    background-color: #DDF2FD;
+    height: 630px;
+    width: 320px;
+    background-size: contain;
+    border-radius: 30px;
+}

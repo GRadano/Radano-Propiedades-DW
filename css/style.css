@@ -111,7 +111,8 @@ header a{
     font-size: 3rem;
 }
     
-.texto-imagenes{
+/* ! VERIFICAR SU PROCEDENCIA */
+/* .texto-imagenes{
     color: #427D9D;
     text-transform: uppercase;
 
@@ -120,7 +121,7 @@ header a{
 .nosotros{
     text-align: center;
     color: #427D9D;
-}
+} */
 
 .padre-destacadas{
     display: grid;
@@ -373,12 +374,28 @@ footer img{
     display: grid;
     grid-template-areas: 
     "div-venta1 div-venta2"
-    "div-venta3 div-veta4";
+    "div-venta3 div-venta4";
     grid-template-columns: 400px 400px;
     grid-template-rows: 400px 400px;
     gap: 80px;
     row-gap: 100px;
     justify-content: center;
+}
+
+.div-venta1{
+    grid-area: div-venta1;
+}
+
+.div-venta2{
+    grid-area: div-venta2;
+}
+
+.div-venta3{
+    grid-area: div-venta3;
+}
+
+.div-venta4{
+    grid-area: div-venta4;
 }
 
 .img-venta{
@@ -698,10 +715,10 @@ footer img{
     }
 
     header a{
-        color: #164863;
+        color: #FFFF;
         text-decoration: none;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 0.5rem;
+        font-size: x-small;
     }
 
     nav{
@@ -761,6 +778,7 @@ footer img{
         align-items: center;
         margin-top: 250px;
         margin-bottom: 250px;
+        margin-left: 80px;
     }
 
     .empresa img{
@@ -823,6 +841,7 @@ footer img{
         row-gap: 200px;
         justify-content: end;
         margin-bottom: 100px;
+        margin-left: 30px;
     }
 
     .casas-venta{
@@ -837,6 +856,7 @@ footer img{
         row-gap: 200px;
         justify-content: center;
         margin-bottom: 300px;
+        margin-left: 30px;
     }
 
     /* -------------------------------------- EMPRENDIMIENTOS ----------------------------------------------- */
@@ -855,6 +875,7 @@ footer img{
         row-gap: 500px;
         justify-content: center;
         margin-bottom: 400px;
+        margin-left: 80px;
     }
     
     /* --------------------------------------------NOSOTROS ----------------------------------------------------- */

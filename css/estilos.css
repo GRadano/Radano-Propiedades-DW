@@ -1,0 +1,1072 @@
+@charset "UTF-8";
+.h1-propiedades {
+  color: #164863;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  color: #164863;
+  font-size: xx-large;
+  background-color: beige;
+}
+
+.p-slogan {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.padre-alquileres {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.padre-alquileres .titulo-alquileres {
+  color: white;
+  background: linear-gradient(125deg, #164863 30%, #f5f5dc 90%);
+  padding: 10px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 5px;
+}
+.padre-alquileres .titulo-alquileres:hover {
+  text-decoration: underline;
+  color: #427D9D;
+}
+
+.casas-alquiler {
+  display: grid;
+  grid-template-areas: "div-alquiler1 div-alquiler2" "div-alquiler3 div-alquiler4";
+  grid-template-columns: 400px 400px;
+  grid-template-rows: 400px 400px;
+  gap: 80px;
+  row-gap: 100px;
+  justify-content: center;
+}
+.casas-alquiler .div-alquiler1 {
+  grid-area: div-alquiler1;
+}
+.casas-alquiler .div-alquiler1 .img-alquiler {
+  border-radius: 30px;
+  width: 400px;
+  height: 400px;
+  margin-left: 10px;
+}
+.casas-alquiler .div-alquiler2 {
+  grid-area: div-alquiler2;
+}
+.casas-alquiler .div-alquiler2 .img-alquiler {
+  border-radius: 30px;
+  width: 400px;
+  height: 400px;
+  margin-left: 10px;
+}
+.casas-alquiler .div-alquiler3 {
+  grid-area: div-alquiler3;
+}
+.casas-alquiler .div-alquiler3 .img-alquiler {
+  border-radius: 30px;
+  width: 400px;
+  height: 400px;
+  margin-left: 10px;
+}
+.casas-alquiler .div-alquiler4 {
+  grid-area: div-alquiler4;
+}
+.casas-alquiler .div-alquiler4 .img-alquiler {
+  border-radius: 30px;
+  width: 400px;
+  height: 400px;
+  margin-left: 10px;
+}
+
+.div-alquiler1, .div-alquiler2, .div-alquiler3, .div-alquiler4 {
+  background-color: #DDF2FD;
+  height: 470px;
+  width: 420px;
+  background-size: contain;
+  border-radius: 30px;
+}
+
+.padre-ventas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.padre-ventas .titulo-ventas {
+  color: white;
+  background: linear-gradient(125deg, #164863 30%, #f5f5dc 90%);
+  padding: 10px;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 5px;
+}
+.padre-ventas .titulo-ventas:hover {
+  text-decoration: underline;
+  color: #427D9D;
+}
+
+.casas-venta {
+  display: grid;
+  grid-template-areas: "div-venta1 div-venta2" "div-venta3 div-veta4";
+  grid-template-columns: 400px 400px;
+  grid-template-rows: 400px 400px;
+  gap: 80px;
+  row-gap: 100px;
+  justify-content: center;
+}
+.casas-venta .div-venta1 {
+  grid-area: div-venta1;
+}
+.casas-venta .div-venta1 .img-venta {
+  border-radius: 30px;
+  width: 400px;
+  height: 400px;
+  margin-left: 10px;
+}
+.casas-venta .div-venta2 {
+  grid-area: div-venta2;
+}
+.casas-venta .div-venta2 .img-venta {
+  border-radius: 30px;
+  width: 400px;
+  height: 400px;
+  margin-left: 10px;
+}
+.casas-venta .div-venta3 {
+  grid-area: div-venta3;
+}
+.casas-venta .div-venta3 .img-venta {
+  border-radius: 30px;
+  width: 400px;
+  height: 400px;
+  margin-left: 10px;
+}
+.casas-venta .div-venta4 {
+  grid-area: div-venta4;
+}
+.casas-venta .div-venta4 .img-venta {
+  border-radius: 30px;
+  width: 400px;
+  height: 400px;
+  margin-left: 10px;
+}
+
+.div-venta1, .div-venta2, .div-venta3, .div-venta4 {
+  background-color: #DDF2FD;
+  height: 470px;
+  width: 420px;
+  background-size: contain;
+  border-radius: 30px;
+}
+
+.h1-propiedades {
+  color: #164863;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  color: #164863;
+  font-size: xx-large;
+  background-color: beige;
+}
+
+.p-slogan {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.padre-emprendimientos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.padre-emprendimientos .h2-emprendimientos {
+  color: white;
+  background: linear-gradient(125deg, #164863 30%, #f5f5dc 90%);
+  padding: 10px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  font-family: "Times New Roman", Times, serif;
+}
+.padre-emprendimientos .h2-emprendimientos:hover {
+  text-decoration: underline;
+  color: #427D9D;
+}
+
+.padre_emprendedor {
+  display: grid;
+  grid-template-areas: "propiedad-emprendimiento1 propiedad-emprendimiento2 propiedad-emprendimiento3" "propiedad-emprendimiento4 propiedad-emprendimiento5 propiedad-emprendimiento6";
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px;
+  gap: 200px;
+  row-gap: 500px;
+  justify-content: center;
+}
+.padre_emprendedor .propiedad-emprendimiento1 {
+  grid-area: propiedad-emprendimiento1;
+}
+.padre_emprendedor .propiedad-emprendimiento1 .img-prop {
+  width: 300px;
+  height: 400px;
+  margin-left: 10px;
+  border-radius: 30px;
+}
+.padre_emprendedor .propiedad-emprendimiento2 {
+  grid-area: propiedad-emprendimiento2;
+}
+.padre_emprendedor .propiedad-emprendimiento2 .img-prop {
+  width: 300px;
+  height: 400px;
+  margin-left: 10px;
+  border-radius: 30px;
+}
+.padre_emprendedor .propiedad-emprendimiento3 {
+  grid-area: propiedad-emprendimiento3;
+}
+.padre_emprendedor .propiedad-emprendimiento3 .img-prop {
+  width: 300px;
+  height: 400px;
+  margin-left: 10px;
+  border-radius: 30px;
+}
+.padre_emprendedor .propiedad-emprendimiento4 {
+  grid-area: propiedad-emprendimiento4;
+}
+.padre_emprendedor .propiedad-emprendimiento4 .img-prop {
+  width: 300px;
+  height: 400px;
+  margin-left: 10px;
+  border-radius: 30px;
+}
+.padre_emprendedor .propiedad-emprendimiento5 {
+  grid-area: propiedad-emprendimiento5;
+}
+.padre_emprendedor .propiedad-emprendimiento5 .img-prop {
+  width: 300px;
+  height: 400px;
+  margin-left: 10px;
+  border-radius: 30px;
+}
+.padre_emprendedor .propiedad-emprendimiento6 {
+  grid-area: propiedad-emprendimiento6;
+}
+.padre_emprendedor .propiedad-emprendimiento6 .img-prop {
+  width: 300px;
+  height: 400px;
+  margin-left: 10px;
+  border-radius: 30px;
+}
+
+.propiedad-emprendimiento1, .propiedad-emprendimiento2, .propiedad-emprendimiento3, .propiedad-emprendimiento4, .propiedad-emprendimiento5, .propiedad-emprendimiento6 {
+  background-color: #DDF2FD;
+  height: 630px;
+  width: 320px;
+  background-size: contain;
+  border-radius: 30px;
+}
+
+.padre-nosotros {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.padre-nosotros .nosotros {
+  color: white;
+  font-size: 2rem;
+  background: linear-gradient(125deg, #164863 30%, #f5f5dc 90%);
+  padding: 10px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  font-family: "Times New Roman", Times, serif;
+  box-shadow: 5px 10px 20px #000;
+}
+.padre-nosotros .nosotros:hover {
+  text-decoration: underline;
+  color: #427D9D;
+}
+
+.padre-mision {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.padre-mision .mision {
+  background: #164863;
+  border-radius: 5px;
+}
+.padre-mision .mision .h3-nosotros {
+  color: black;
+  padding: 10px;
+  font-weight: bolder;
+  text-align: center;
+  font-size: xx-large;
+}
+.padre-mision .mision .descripccion {
+  color: black;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+.padre-mision .mision .list {
+  color: black;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.padre-vision {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.padre-vision .vision {
+  background: #5587a3;
+  border-radius: 5px;
+  height: 200px;
+  text-align: center;
+  width: 61%;
+  margin-top: 50px;
+}
+.padre-vision .vision .h3-nosotros {
+  color: black;
+  padding: 10px;
+  font-weight: bolder;
+  text-align: center;
+  font-size: xx-large;
+}
+.padre-vision .vision .descripccion {
+  color: black;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.padre-valores {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.padre-valores .valores {
+  background: #f5f5dc;
+  border-radius: 5px;
+  height: 500px;
+  text-align: center;
+  width: 61%;
+  margin-top: 50px;
+}
+.padre-valores .valores .h3-nosotros {
+  color: black;
+  padding: 10px;
+  font-weight: bolder;
+  text-align: center;
+  font-size: xx-large;
+}
+.padre-valores .valores .descripccion {
+  color: black;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.h1-propiedades {
+  color: #164863;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  color: #164863;
+  font-size: xx-large;
+  background-color: beige;
+}
+
+.p-slogan {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.padre-contactanos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.padre-contactanos .h2-contacto {
+  align-items: center;
+  color: white;
+  background: linear-gradient(125deg, #164863 30%, #f5f5dc 90%);
+  padding: 10px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  font-family: "Times New Roman", Times, serif;
+}
+.padre-contactanos .h2-contacto:hover {
+  text-decoration: underline;
+  color: #427D9D;
+}
+
+.padre-p-contacto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.padre-p-contacto .p-contacto {
+  margin-bottom: 50px;
+  color: white;
+  background-color: dimgray;
+  font-family: "Times New Roman", Times, serif;
+  padding: 5px;
+  font-size: xx-large;
+}
+
+.formulario {
+  width: 400px;
+  background: linear-gradient(125deg, #164863 30%, #f5f5dc 90%);
+  padding: 30px;
+  margin: auto;
+  margin-top: 70px;
+  border-radius: 4px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+.formulario .formulario h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.formulario .controls {
+  width: 93%;
+  background: #164863;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #9BBEC8;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+}
+.formulario .boton {
+  width: 98%;
+  background: #427D9D;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+.formulario .boton:hover {
+  border: 1px solid white;
+}
+
+body {
+  font-family: "Albert Sans", sans-serif;
+  background-color: aliceblue;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(125deg, #164863 30%, #f5f5dc 90%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+}
+header .logo {
+  width: 200px;
+  height: 150px;
+}
+header nav {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+header nav header ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav header ul header a {
+  color: #164863;
+  text-decoration: none;
+  margin-left: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.padre-banner {
+  background-image: url(../images/banner\ 5.jpg);
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+.padre-banner .banner-h1 {
+  color: whitesmoke;
+  font-size: 4rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: underline;
+  text-shadow: 1px -1px 25px rgb(0, 0, 0);
+}
+.padre-banner .banner-p {
+  color: #164863;
+  font-size: xx-large;
+  background-color: #f5f5dc;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titutlo-h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.titutlo-h2 .titulo-presentacion-imagenes-casas {
+  color: white;
+  width: 40%;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 70px;
+  margin-bottom: 10px;
+  background: linear-gradient(125deg, #164863 30%, #f5f5dc 90%);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 5px;
+  font-size: 3rem;
+}
+
+.padre-destacadas {
+  display: grid;
+  grid-template-areas: "propiedad1 propiedad2 propiedad3" "propiedad4 propiedad5 propiedad6";
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(3, 400px);
+  gap: 200px;
+  row-gap: 200px;
+  justify-content: center;
+  margin-top: 80px;
+  margin-right: 80px;
+  margin-bottom: 0;
+}
+.padre-destacadas .propiedad1 {
+  grid-area: propiedad1;
+}
+.padre-destacadas .propiedad1 .img-destacada {
+  width: 400px;
+  border-radius: 5px;
+  grid-column: 1;
+}
+.padre-destacadas .propiedad1 .data {
+  background-color: #DDF2FD;
+  width: 400px;
+  height: 280px;
+  border: solid #9BBEC8;
+}
+.padre-destacadas .propiedad1 .data .direccion {
+  font-size: small;
+  color: gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 5px;
+}
+.padre-destacadas .propiedad1 .data .prop-titulo {
+  font-size: large;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.padre-destacadas .propiedad1 .data .adress {
+  font-size: smaller;
+  color: gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 5px;
+}
+.padre-destacadas .propiedad1 .data .casa-descripccion {
+  font-size: medium;
+  color: gray;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+.padre-destacadas .propiedad2 {
+  grid-area: propiedad2;
+}
+.padre-destacadas .propiedad2 .img-destacada {
+  width: 400px;
+  border-radius: 5px;
+  grid-column: 1;
+}
+.padre-destacadas .propiedad2 .data {
+  background-color: #DDF2FD;
+  width: 400px;
+  height: 280px;
+  border: solid #9BBEC8;
+}
+.padre-destacadas .propiedad2 .data .direccion {
+  font-size: small;
+  color: gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 5px;
+}
+.padre-destacadas .propiedad2 .data .prop-titulo {
+  font-size: large;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.padre-destacadas .propiedad2 .data .adress {
+  font-size: smaller;
+  color: gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 5px;
+}
+.padre-destacadas .propiedad2 .data .casa-descripccion {
+  font-size: medium;
+  color: gray;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+.padre-destacadas .propiedad3 {
+  grid-area: propiedad3;
+}
+.padre-destacadas .propiedad3 .img-destacada {
+  width: 400px;
+  border-radius: 5px;
+  grid-column: 1;
+}
+.padre-destacadas .propiedad3 .data {
+  background-color: #DDF2FD;
+  width: 400px;
+  height: 280px;
+  border: solid #9BBEC8;
+}
+.padre-destacadas .propiedad3 .data .direccion {
+  font-size: small;
+  color: gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 5px;
+}
+.padre-destacadas .propiedad3 .data .prop-titulo {
+  font-size: large;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.padre-destacadas .propiedad3 .data .adress {
+  font-size: smaller;
+  color: gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 5px;
+}
+.padre-destacadas .propiedad3 .data .casa-descripccion {
+  font-size: medium;
+  color: gray;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+.padre-destacadas .propiedad4 {
+  grid-area: propiedad4;
+}
+.padre-destacadas .propiedad4 .img-destacada {
+  width: 400px;
+  border-radius: 5px;
+  grid-column: 1;
+}
+.padre-destacadas .propiedad4 .data {
+  background-color: #DDF2FD;
+  width: 400px;
+  height: 280px;
+  border: solid #9BBEC8;
+}
+.padre-destacadas .propiedad4 .data .direccion {
+  font-size: small;
+  color: gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 5px;
+}
+.padre-destacadas .propiedad4 .data .prop-titulo {
+  font-size: large;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.padre-destacadas .propiedad4 .data .adress {
+  font-size: smaller;
+  color: gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 5px;
+}
+.padre-destacadas .propiedad4 .data .casa-descripccion {
+  font-size: medium;
+  color: gray;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+.padre-destacadas .propiedad5 {
+  grid-area: propiedad5;
+}
+.padre-destacadas .propiedad5 .img-destacada {
+  width: 400px;
+  border-radius: 5px;
+  grid-column: 1;
+}
+.padre-destacadas .propiedad5 .data {
+  background-color: #DDF2FD;
+  width: 400px;
+  height: 280px;
+  border: solid #9BBEC8;
+}
+.padre-destacadas .propiedad5 .data .direccion {
+  font-size: small;
+  color: gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 5px;
+}
+.padre-destacadas .propiedad5 .data .prop-titulo {
+  font-size: large;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.padre-destacadas .propiedad5 .data .adress {
+  font-size: smaller;
+  color: gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 5px;
+}
+.padre-destacadas .propiedad5 .data .casa-descripccion {
+  font-size: medium;
+  color: gray;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+.padre-destacadas .propiedad6 {
+  grid-area: propiedad6;
+}
+.padre-destacadas .propiedad6 .img-destacada {
+  width: 400px;
+  border-radius: 5px;
+  grid-column: 1;
+}
+.padre-destacadas .propiedad6 .data {
+  background-color: #DDF2FD;
+  width: 400px;
+  height: 280px;
+  border: solid #9BBEC8;
+}
+.padre-destacadas .propiedad6 .data .direccion {
+  font-size: small;
+  color: gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 5px;
+}
+.padre-destacadas .propiedad6 .data .prop-titulo {
+  font-size: large;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.padre-destacadas .propiedad6 .data .adress {
+  font-size: smaller;
+  color: gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 5px;
+}
+.padre-destacadas .propiedad6 .data .casa-descripccion {
+  font-size: medium;
+  color: gray;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.empresa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.pre-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 200px;
+}
+.pre-footer .ubicación {
+  width: 400px;
+  height: 200px;
+  border-right: black solid 2px;
+  align-items: center;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: end;
+  font-size: 2rem;
+}
+.pre-footer .ubicación .BA {
+  font-size: 2rem;
+}
+.pre-footer .atencion {
+  width: 550px;
+  height: 200px;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: start;
+  font-size: 2rem;
+}
+
+footer {
+  margin-top: 100px;
+  background: linear-gradient(125deg, #164863 30%, #f5f5dc 90%);
+  width: 100%;
+  height: 100px;
+  margin-top: 100px;
+}
+footer footer img {
+  width: 50px;
+  margin-top: 30px;
+}
+footer footer img .footer-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 480px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  /* INDEX ------------------------------------------------------------------------------------------ */
+  header {
+    width: 100%;
+    flex-direction: column;
+  }
+  header ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header a {
+    color: white;
+    text-decoration: none;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: x-small;
+  }
+  nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-h1 {
+    color: whitesmoke;
+    font-size: 2rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    text-decoration: underline;
+    text-shadow: 1px -1px 25px rgb(0, 0, 0);
+  }
+  .banner-p {
+    color: #164863;
+    font-size: large;
+    background-color: #f5f5dc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .titutlo-h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .titulo-presentacion-imagenes-casas {
+    color: white;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    margin: 50px 0;
+    background: linear-gradient(125deg, #164863 30%, #f5f5dc 90%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+    font-size: 1.5rem;
+  }
+  .padre-destacadas {
+    grid-template-areas: "propiedad1" "propiedad2" "propiedad3" "propiedad4" "propiedad5" "propiedad6";
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 100px);
+    row-gap: 500px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    margin-left: 80px;
+  }
+  .empresa img {
+    width: 250px;
+  }
+  .empresa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin-top: 50px;
+  }
+  .pre-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 200px;
+    width: 100%;
+  }
+  .ubicación {
+    width: 100%;
+    height: 150px;
+    border-left: none;
+    border-bottom: black solid 2px;
+    align-items: center;
+    padding: 30px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: start;
+    font-size: 1rem;
+  }
+  .BA {
+    font-size: 1.5rem;
+  }
+  .atencion {
+    width: 100%;
+    height: 100px;
+    padding: 30px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: start;
+    font-size: large;
+  }
+  /* PROPIEDADES ---------------------------------------------------------------------------------*/
+  .casas-alquiler {
+    grid-template-areas: "div-alquiler1" "div-alquiler2" "div-alquiler3" "div-alquiler4";
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 300px);
+    gap: 80px;
+    row-gap: 200px;
+    justify-content: end;
+    margin-bottom: 100px;
+    margin-left: 30px;
+  }
+  .casas-venta {
+    grid-template-areas: "div-venta1" "div-venta2" "div-venta3" "div-veta4";
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 300px);
+    gap: 80px;
+    row-gap: 200px;
+    justify-content: center;
+    margin-bottom: 300px;
+    margin-left: 30px;
+  }
+  /* -------------------------------------- EMPRENDIMIENTOS ----------------------------------------------- */
+  .padre_emprendedor {
+    grid-template-areas: "propiedad-emprendimiento1" "propiedad-emprendimiento2" "propiedad-emprendimiento3" "propiedad-emprendimiento4" "propiedad-emprendimiento5" "propiedad-emprendimiento6";
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 300px);
+    gap: 200px;
+    row-gap: 500px;
+    justify-content: center;
+    margin-bottom: 400px;
+    margin-left: 80px;
+  }
+  /* --------------------------------------------NOSOTROS ----------------------------------------------------- */
+  .nosotros {
+    color: white;
+    font-size: 1rem;
+    background: linear-gradient(125deg, #164863 30%, #f5f5dc 90%);
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    font-family: "Times New Roman", Times, serif;
+    box-shadow: 5px 10px 20px #000;
+    width: 80%;
+  }
+  .descripccion, .list {
+    font-size: 1rem;
+  }
+  .mision {
+    width: 70%;
+  }
+  .vision {
+    height: 350px;
+    width: 70%;
+  }
+  .valores {
+    height: 700px;
+    width: 70%;
+  }
+  /* -------------------------------------------- CONTACTANOS ------------------------------------------------- */
+  .p-contacto {
+    width: 80%;
+    font-size: 1rem;
+    padding: 10px;
+    text-align: center;
+  }
+  .formulario {
+    width: 300px;
+    background: linear-gradient(125deg, #164863 30%, #f5f5dc 90%);
+    padding: 30px;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 4px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
